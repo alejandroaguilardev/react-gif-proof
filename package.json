@@ -2,7 +2,7 @@
   "name": "05-gif-expert-app",
   "version": "0.1.0",
   "private": true,
-  "homepage" : "https://alejandroaguilardev.github.io/react-gif-proof/",
+  "homepage": "https://alejandroaguilardev.github.io/react-gif-proof/",
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.1",
     "@testing-library/react": "^12.1.2",
@@ -35,5 +35,11 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "@testing-library/react-hooks": "^7.0.2",
+    "enzyme": "^3.11.0",
+    "enzyme-adapter-react-16": "^1.15.6",
+    "enzyme-to-json": "^3.6.2"
   }
 }

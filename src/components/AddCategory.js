@@ -14,12 +14,17 @@ const AddCategory = ({setCategories }) => {
         }
     }
 
+    const handleInputChange = (e) => {
+        setInputValue(e.target.value);
+    }
+
   return (
     <form onSubmit={handleSubmit}>
+        <p>{ inputValue }</p>
         <input 
             type="text"
             value={ inputValue }
-            onChange={e => setInputValue(e.target.value)}
+            onChange={handleInputChange}
 
         />
       </form>
